@@ -1,0 +1,20 @@
+# Copyright René Ferdinand Rivera Morell 2023
+# Distributed under the Boost Software License, Version 1.0.
+# (See accompanying file LICENSE_1_0.txt or copy at
+# http://www.boost.org/LICENSE_1_0.txt)
+
+import project ;
+
+project /boost/vmd
+    : common-requirements
+        <source>/boost/preprocessor//boost_preprocessor
+        <include>include
+    ;
+
+explicit
+    [ alias boost_vmd ]
+    [ alias all : boost_vmd test ]
+    ;
+
+call-if : boost-library vmd
+    ;

@@ -6,8 +6,10 @@
 # VariadicMacroData testing Jamfile
 #
 
+import-search /boost/predef/tools/check ;
+
 import testing ;
-import ../../predef/check/predef
+import predef
     : check require
     : predef-check predef-require ;
 
@@ -21,6 +23,10 @@ project variadic_macro_data_tests : requirements <warnings>on
                                                  <toolset>gcc-4.3.0:<cxxflags>-U__STRICT_ANSI__
                                                  <toolset>gcc-4.4.0:<cxxflags>-U__STRICT_ANSI__
                                                  <toolset>gcc-4.5.0:<linkflags>"-Wl,--enable-auto-import"
+                                                 <include>.
+
+                                                 <source>/boost/predef//boost_predef
+                                                 <source>/boost/core//boost_core
                                                  ;
                                                  
 alias variadic_macro_data
