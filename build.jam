@@ -7,7 +7,7 @@ import project ;
 
 project /boost/vmd
     : common-requirements
-        <source>/boost/preprocessor//boost_preprocessor
+        <library>/boost/preprocessor//boost_preprocessor
         <include>include
     ;
 
