@@ -7,7 +7,7 @@
 #
 
 import testing ;
-import ../../predef/check/predef
+import ../../predef/tools/check/predef
     : check require
     : predef-check predef-require ;
 
