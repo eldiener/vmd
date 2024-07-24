@@ -5,16 +5,19 @@
 
 require-b2 5.2 ;
 
+constant boost_dependencies :
+    /boost/preprocessor//boost_preprocessor ;
+
 project /boost/vmd
     : common-requirements
-        <library>/boost/preprocessor//boost_preprocessor
         <include>include
     ;
 
 explicit
-    [ alias boost_vmd ]
+    [ alias boost_vmd : : : : <library>$(boost_dependencies) ]
     [ alias all : boost_vmd test ]
     ;
 
 call-if : boost-library vmd
     ;
+
