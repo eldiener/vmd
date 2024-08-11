@@ -27,6 +27,7 @@ project variadic_macro_data_tests : requirements <warnings>on
 
                                                  <library>/boost/predef//boost_predef
                                                  <library>/boost/core//boost_core
+                                                 <library>/boost/vmd//boost_vmd
                                                  ;
 
 alias variadic_macro_data
