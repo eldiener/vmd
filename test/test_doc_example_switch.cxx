@@ -6,7 +6,7 @@
 
 #include <boost/vmd/equal.hpp>
 #include <boost/vmd/identity.hpp>
-#include <libs/vmd/test/test_doc_example_switch.hpp>
+#include "test_doc_example_switch.hpp"
 #include <boost/detail/lightweight_test.hpp>
 
 int main()

@@ -4,4 +4,4 @@
 //  Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt).
 
-#include <libs/vmd/test/test_is_seq.cxx>
+#include "test_is_seq.cxx"

@@ -29,66 +29,66 @@ project vmd_doc : requirements
 
 doxygen vmd_reference
   :
-    $(here)/../../../boost/vmd/assert.hpp
-    $(here)/../../../boost/vmd/assert_is_array.hpp
-    $(here)/../../../boost/vmd/assert_is_empty.hpp
-    $(here)/../../../boost/vmd/assert_is_identifier.hpp
-    $(here)/../../../boost/vmd/assert_is_list.hpp
-    $(here)/../../../boost/vmd/assert_is_number.hpp
-    $(here)/../../../boost/vmd/assert_is_seq.hpp
-    $(here)/../../../boost/vmd/assert_is_tuple.hpp
-    $(here)/../../../boost/vmd/assert_is_type.hpp
-    $(here)/../../../boost/vmd/elem.hpp
-    $(here)/../../../boost/vmd/empty.hpp
-    $(here)/../../../boost/vmd/enum.hpp
-    $(here)/../../../boost/vmd/equal.hpp
-    $(here)/../../../boost/vmd/get_type.hpp
-    $(here)/../../../boost/vmd/identity.hpp
-    $(here)/../../../boost/vmd/is_array.hpp
-    $(here)/../../../boost/vmd/is_empty.hpp
-    $(here)/../../../boost/vmd/is_empty_array.hpp
-    $(here)/../../../boost/vmd/is_empty_list.hpp
-    $(here)/../../../boost/vmd/is_general_identifier.hpp
-    $(here)/../../../boost/vmd/is_identifier.hpp
-    $(here)/../../../boost/vmd/is_list.hpp
-    $(here)/../../../boost/vmd/is_multi.hpp
-    $(here)/../../../boost/vmd/is_number.hpp
-    $(here)/../../../boost/vmd/is_parens_empty.hpp
-    $(here)/../../../boost/vmd/is_seq.hpp
-    $(here)/../../../boost/vmd/is_tuple.hpp
-    $(here)/../../../boost/vmd/is_type.hpp
-    $(here)/../../../boost/vmd/is_unary.hpp
-    $(here)/../../../boost/vmd/not_equal.hpp
-    $(here)/../../../boost/vmd/size.hpp
-    $(here)/../../../boost/vmd/to_array.hpp
-    $(here)/../../../boost/vmd/to_list.hpp
-    $(here)/../../../boost/vmd/to_seq.hpp
-    $(here)/../../../boost/vmd/to_tuple.hpp
-    $(here)/../../../boost/vmd/array/to_seq.hpp
-    $(here)/../../../boost/vmd/array/to_tuple.hpp
-    $(here)/../../../boost/vmd/list/to_seq.hpp
-    $(here)/../../../boost/vmd/list/to_tuple.hpp
-    $(here)/../../../boost/vmd/seq/is_vmd_seq.hpp
-    $(here)/../../../boost/vmd/seq/pop_back.hpp
-    $(here)/../../../boost/vmd/seq/pop_front.hpp
-    $(here)/../../../boost/vmd/seq/push_back.hpp
-    $(here)/../../../boost/vmd/seq/push_front.hpp
-    $(here)/../../../boost/vmd/seq/remove.hpp
-    $(here)/../../../boost/vmd/seq/size.hpp
-    $(here)/../../../boost/vmd/seq/to_array.hpp
-    $(here)/../../../boost/vmd/seq/to_list.hpp
-    $(here)/../../../boost/vmd/seq/to_tuple.hpp
-    $(here)/../../../boost/vmd/tuple/is_vmd_tuple.hpp
-    $(here)/../../../boost/vmd/tuple/pop_back.hpp
-    $(here)/../../../boost/vmd/tuple/pop_front.hpp
-    $(here)/../../../boost/vmd/tuple/push_back.hpp
-    $(here)/../../../boost/vmd/tuple/push_front.hpp
-    $(here)/../../../boost/vmd/tuple/remove.hpp
-    $(here)/../../../boost/vmd/tuple/size.hpp
-    $(here)/../../../boost/vmd/tuple/to_array.hpp
-    $(here)/../../../boost/vmd/tuple/to_list.hpp
-    $(here)/../../../boost/vmd/tuple/to_seq.hpp
-  : 
+    $(here)/../include/boost/vmd/assert.hpp
+    $(here)/../include/boost/vmd/assert_is_array.hpp
+    $(here)/../include/boost/vmd/assert_is_empty.hpp
+    $(here)/../include/boost/vmd/assert_is_identifier.hpp
+    $(here)/../include/boost/vmd/assert_is_list.hpp
+    $(here)/../include/boost/vmd/assert_is_number.hpp
+    $(here)/../include/boost/vmd/assert_is_seq.hpp
+    $(here)/../include/boost/vmd/assert_is_tuple.hpp
+    $(here)/../include/boost/vmd/assert_is_type.hpp
+    $(here)/../include/boost/vmd/elem.hpp
+    $(here)/../include/boost/vmd/empty.hpp
+    $(here)/../include/boost/vmd/enum.hpp
+    $(here)/../include/boost/vmd/equal.hpp
+    $(here)/../include/boost/vmd/get_type.hpp
+    $(here)/../include/boost/vmd/identity.hpp
+    $(here)/../include/boost/vmd/is_array.hpp
+    $(here)/../include/boost/vmd/is_empty.hpp
+    $(here)/../include/boost/vmd/is_empty_array.hpp
+    $(here)/../include/boost/vmd/is_empty_list.hpp
+    $(here)/../include/boost/vmd/is_general_identifier.hpp
+    $(here)/../include/boost/vmd/is_identifier.hpp
+    $(here)/../include/boost/vmd/is_list.hpp
+    $(here)/../include/boost/vmd/is_multi.hpp
+    $(here)/../include/boost/vmd/is_number.hpp
+    $(here)/../include/boost/vmd/is_parens_empty.hpp
+    $(here)/../include/boost/vmd/is_seq.hpp
+    $(here)/../include/boost/vmd/is_tuple.hpp
+    $(here)/../include/boost/vmd/is_type.hpp
+    $(here)/../include/boost/vmd/is_unary.hpp
+    $(here)/../include/boost/vmd/not_equal.hpp
+    $(here)/../include/boost/vmd/size.hpp
+    $(here)/../include/boost/vmd/to_array.hpp
+    $(here)/../include/boost/vmd/to_list.hpp
+    $(here)/../include/boost/vmd/to_seq.hpp
+    $(here)/../include/boost/vmd/to_tuple.hpp
+    $(here)/../include/boost/vmd/array/to_seq.hpp
+    $(here)/../include/boost/vmd/array/to_tuple.hpp
+    $(here)/../include/boost/vmd/list/to_seq.hpp
+    $(here)/../include/boost/vmd/list/to_tuple.hpp
+    $(here)/../include/boost/vmd/seq/is_vmd_seq.hpp
+    $(here)/../include/boost/vmd/seq/pop_back.hpp
+    $(here)/../include/boost/vmd/seq/pop_front.hpp
+    $(here)/../include/boost/vmd/seq/push_back.hpp
+    $(here)/../include/boost/vmd/seq/push_front.hpp
+    $(here)/../include/boost/vmd/seq/remove.hpp
+    $(here)/../include/boost/vmd/seq/size.hpp
+    $(here)/../include/boost/vmd/seq/to_array.hpp
+    $(here)/../include/boost/vmd/seq/to_list.hpp
+    $(here)/../include/boost/vmd/seq/to_tuple.hpp
+    $(here)/../include/boost/vmd/tuple/is_vmd_tuple.hpp
+    $(here)/../include/boost/vmd/tuple/pop_back.hpp
+    $(here)/../include/boost/vmd/tuple/pop_front.hpp
+    $(here)/../include/boost/vmd/tuple/push_back.hpp
+    $(here)/../include/boost/vmd/tuple/push_front.hpp
+    $(here)/../include/boost/vmd/tuple/remove.hpp
+    $(here)/../include/boost/vmd/tuple/size.hpp
+    $(here)/../include/boost/vmd/tuple/to_array.hpp
+    $(here)/../include/boost/vmd/tuple/to_list.hpp
+    $(here)/../include/boost/vmd/tuple/to_seq.hpp
+  :
     <doxygen:param>PROJECT_NAME="VMD"
     <doxygen:param>PROJECT_NUMBER=1
     <doxygen:param>SORT_MEMBER_DOCS=NO
@@ -115,7 +115,7 @@ boostbook standalone
   <xsl:param>chunk.section.depth=8  # How far down we chunk nested sections, basically all of them.
   <xsl:param>toc.section.depth=8  # How far down sections get TOCs.
   <xsl:param>toc.max.depth=4  # Max depth in each TOC.
-  
+
   # PDF Options:
   # TOC Generation: this is needed for FOP-0.9 and later:
   <xsl:param>fop1.extensions=0
